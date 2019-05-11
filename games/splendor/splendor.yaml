@@ -1,0 +1,41 @@
+name: Splendor
+components:
+
+  table:
+    __class__: FlexTable
+    table_width: 18
+    table_height: 18
+
+  level_1:
+    __class__: Deck
+    position:
+      x: 0.0
+      y: -4.0
+    count: 40
+
+  level_2:
+    __class__: Deck
+    position:
+      x: 0.0
+      y: 0.0
+    num_dim: 10.7
+    count: 30
+
+  level_3:
+    __class__: Deck
+    position:
+      x: 0.0
+      y: +4.0
+    num_dim: 10.7
+    count: 20
+
+layout:
+  - __class__: OpenDeck
+    deck: level_3
+    count: 4
+  - __class__: OpenDeck
+    deck: level_2
+    count: 4
+  - __class__: OpenDeck
+    deck: level_1
+    count: 4

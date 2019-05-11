@@ -1,3 +1,7 @@
 click
 pyyaml
 setuptools_scm
+zerotk.zops
+schematics
+pytest
+dataclasses-json
