@@ -332,8 +332,5 @@ class TabletopSimulator(_TabletopBase):
         filename.write_text(contents)
 
     def generate_components(self, components, source_dir):
-        for i_component_name, i_component in components.items():
-            self.ObjectStates += i_component.generate(
-                i_component_name,
-                dest_directory=source_dir,
-            )
+        for i_component in components.values():
+            self.ObjectStates += i_component.generate(dest_directory=source_dir)

@@ -3,6 +3,8 @@ from typing import OrderedDict
 
 import click
 
+from ttgen.tabletop_generator.layout import Layout
+
 
 @click.group("ttgen")
 def main():
@@ -43,18 +45,12 @@ class TabletopGenerator:
             except AttributeError:
                 raise TypeError(f"Invalid component class: {component_class}.")
             else:
-                c = class_.schema().load(i_component_dict)
-            self.components[i_component_name] = c
+                c = class_.from_dict(i_component_dict, i_component_name)
+            self.components[c.get_key()] = c
 
         self.layout = []
-        for i_layout in yaml["layout"]:
-            layout_class = i_layout.pop("__class__")
-            try:
-                class_ = getattr(layout, layout_class)
-            except AttributeError:
-                raise TypeError(f"Invalid layout class: {layout_class}.")
-            else:
-                c = class_.schema().load(i_layout)
+        for i_layout_dict in yaml["layout"]:
+            c = Layout.create_layout(i_layout_dict, self.components)
             self.layout.append(c)
 
     def compile(self, dest_directory: Path):
@@ -62,18 +58,18 @@ class TabletopGenerator:
 
         click.echo("Compiling...")
 
+        self.apply_layout()
+
         ttsim = TabletopSimulator()
         ttsim.SaveName = self.name
         ttsim.GameMode = self.name
         ttsim.generate_components(self.components, source_dir=self._source_filename.parent)
-        self.calculate_layout(ttsim)
         ttsim.save(self._source_filename.parent / f"{self.name}.json")
         ttsim.save(Path(dest_directory) / f"{self.name}.json")
 
-    def calculate_layout(self, layout):
-        pass
-        # width = sum(i.width for i in layout)
-        # height = sum(i.height for i in layout)
+    def apply_layout(self):
+        for i_layout in self.layout:
+            i_layout.set_position(0.0 , 0.0)
 
 
 if __name__ == "__main__":

@@ -18,22 +18,37 @@ class Globals:
         return str(uuid.uuid4())[:6]
 
     @classmethod
-    def gen_image_url(cls, base_dir, kind, name):
+    def gen_image_url(cls, base_dir, path):
         from pathlib import Path
 
         for i_extension in (".png", ".jpg"):
-            filename = Path(f"{base_dir}/{kind}/{name}{i_extension}")
+            filename = Path(f"{base_dir}/{path}{i_extension}")
             if filename.is_file():
                 break
         else:
-            raise RuntimeError(f"Image file not found for {base_dir}/{kind}/{name}")
+            raise RuntimeError(f"Image file not found for {base_dir}/{path}")
 
         return f"file:///{filename}"
 
 
 @dataclass
 class _Base(DataClassJsonMixin):
+    name: str = ""
     position: PosType = PosType()
+
+    def get_key(self):
+        prefix = self.__class__.__name__.lower()
+        return f"{prefix}:{self.name}"
+
+    def get_path(self):
+        prefix = self.__class__.__name__.lower()
+        return f"{prefix}s/{self.name}"
+
+    @classmethod
+    def from_dict(cls, d, name):
+        result = cls.schema().load(d)
+        result.name = name
+        return result
 
 
 @dataclass
@@ -41,11 +56,11 @@ class Board(_Base):
     image_url: str = ""
     snap_points: List[int] = field(default_factory=list)
 
-    def generate(self, name, dest_directory):
+    def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomBoard
 
         if not self.image_url:
-            self.image_url = Globals.gen_image_url(dest_directory, 'boards', name)
+            self.image_url = Globals.gen_image_url(dest_directory, self.get_path())
 
         return [
             TabletopCustomBoard.from_dict(
@@ -69,15 +84,15 @@ class Deck(_Base):
     metadata: Dict[str, str] = field(default_factory=dict)
     count: int = 52
 
-    def generate(self, name, dest_directory):
+    def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopDeckCustom, TabletopCard
 
         deck_id = Globals.get_deck_id()
 
         if not self.face_url:
-            self.face_url = Globals.gen_image_url(dest_directory, 'decks', name)
+            self.face_url = Globals.gen_image_url(dest_directory, self.get_path())
         if not self.back_url:
-            self.back_url = Globals.gen_image_url(dest_directory, 'decks', name + "_back")
+            self.back_url = Globals.gen_image_url(dest_directory, self.get_path() + "_back")
 
         cards = []
         for i in range(self.count):
@@ -90,7 +105,7 @@ class Deck(_Base):
 
         return [
             TabletopDeckCustom.from_dict(
-                Nickname=name,
+                Nickname=self.name,
                 Transform=dict(
                     posX=self.position.x,
                     posY=2.0,
@@ -118,7 +133,7 @@ class Model(_Base):
     diffuse_url: str = ""
     collide_url: str = ""
 
-    def generate(self, name, dest_directory):
+    def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomModel
 
         return [
@@ -141,11 +156,11 @@ class Model(_Base):
 class TokenStack(_Base):
     image_url: str = ""
 
-    def generate(self, name, dest_directory):
+    def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomTokenStack
 
         if not self.image_url:
-            self.image_url = f"{dest_directory}\\token_stack\\{name}.png"
+            self.image_url = f"{dest_directory}\\{self.get_path()}.png"
 
         return [
             TabletopCustomTokenStack.from_dict(
@@ -170,7 +185,7 @@ class FlexTable(_Base):
     table_width: float = 18.0
     table_height: float = 18.0
 
-    def generate(self, name, dest_directory):
+    def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomAssetBundle, TabletopCustomModel
 
         width_scale = self.table_width / self.DEFAULT_SIZE
@@ -240,7 +255,7 @@ class FlexTable(_Base):
 @dataclass
 class HardwoodTable(_Base):
 
-    def generate(self, name, dest_directory):
+    def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomAssetBundle
 
         result = []
