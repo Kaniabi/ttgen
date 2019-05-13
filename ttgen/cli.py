@@ -53,23 +53,25 @@ class TabletopGenerator:
             c = Layout.create_layout(i_layout_dict, self.components)
             self.layout.append(c)
 
+        self.apply_layout()
+
     def compile(self, dest_directory: Path):
         from ttgen.tabletop_simulator import TabletopSimulator
 
         click.echo("Compiling...")
 
-        self.apply_layout()
-
         ttsim = TabletopSimulator()
         ttsim.SaveName = self.name
         ttsim.GameMode = self.name
-        ttsim.generate_components(self.components, source_dir=self._source_filename.parent)
+        for i_component in self.components.values():
+            ttsim.ObjectStates += i_component.generate(dest_directory=self._source_filename.parent)
+
         ttsim.save(self._source_filename.parent / f"{self.name}.json")
         ttsim.save(Path(dest_directory) / f"{self.name}.json")
 
     def apply_layout(self):
         for i_layout in self.layout:
-            i_layout.set_position(0.0 , 0.0)
+            i_layout.set_position(0.0, 0.0)
 
 
 if __name__ == "__main__":

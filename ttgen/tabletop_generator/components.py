@@ -1,6 +1,9 @@
 from dataclasses import dataclass, field
 from typing import List, Dict
-from ttgen.dataclass_ import PosType
+
+from pygame.rect import Rect
+
+from ttgen.dataclass_ import PosType, RgbType
 from dataclasses_json import DataClassJsonMixin
 
 
@@ -177,16 +180,59 @@ class TokenStack(_Base):
         ]
 
 
+class _BaseTable(_Base):
+
+    def get_key(self):
+        return 'table'
+
+
+class _BaseAnnotation:
+
+    def generate(self, components):
+        return []
+
+
 @dataclass
-class FlexTable(_Base):
+class BoxAnnotation(_BaseAnnotation):
+    left: float = 0.0
+    top: float = 0.0
+    width: float = 0.0
+    height: float = 0.0
+    color: RgbType = RgbType()
+    thickness: float = 0.02
+
+    @property
+    def right(self):
+        return self.left + self.width
+
+    @property
+    def bottom(self):
+        return self.top + self.height
+
+
+@dataclass
+class FlexTable(_BaseTable):
 
     DEFAULT_SIZE = 18.0
 
     table_width: float = 18.0
     table_height: float = 18.0
 
+    surface_y: float = 10.4915
+
+    snap_points: List[PosType] = field(default_factory=list)
+    annotations: List[_BaseAnnotation] = field(default_factory=list)
+
+    def add_snap_point(self, x, y):
+        a = PosType(x, y)
+        self.snap_points.append(a)
+
+    def add_box(self, x, y, w, h, color):
+        a = BoxAnnotation(x, y, w, h, color)
+        self.annotations.append(a)
+
     def generate(self, dest_directory):
-        from ttgen.tabletop_simulator import TabletopCustomAssetBundle, TabletopCustomModel
+        from ttgen.tabletop_simulator import TabletopCustomAssetBundle, TabletopCustomModel, AttachedVectorLine, AttachedSnapPoint
 
         width_scale = self.table_width / self.DEFAULT_SIZE
         depth_scale = self.table_height / self.DEFAULT_SIZE
@@ -245,15 +291,34 @@ class FlexTable(_Base):
             CustomMesh=dict(
                 MeshURL="http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/",
                 DiffuseURL="https://i.imgur.com/N0O6aqj.jpg",
-            )
+            ),
         )
+        for i_pos in self.snap_points:
+            p = AttachedSnapPoint.from_dict(
+                Position=dict(x=i_pos.x, y=self.surface_y, z=i_pos.y)
+            )
+            obj.AttachedSnapPoints.append(p)
+
+        for i_annotation in self.annotations:
+            a = AttachedVectorLine.from_dict(
+                points3=[
+                    dict(x=i_annotation.left, y=self.surface_y, z=i_annotation.top),
+                    dict(x=i_annotation.left, y=self.surface_y, z=i_annotation.bottom),
+                    dict(x=i_annotation.right, y=self.surface_y, z=i_annotation.bottom),
+                    dict(x=i_annotation.right, y=self.surface_y, z=i_annotation.top),
+                ],
+                color=i_annotation.color,
+                thickness=i_annotation.thickness,
+            )
+            obj.AttachedVectorLines.append(a)
+
         result.append(obj)
 
         return result
 
 
 @dataclass
-class HardwoodTable(_Base):
+class HardwoodTable(_BaseTable):
 
     def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomAssetBundle

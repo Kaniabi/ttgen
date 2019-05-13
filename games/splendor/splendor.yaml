@@ -21,7 +21,7 @@ components:
     count: 20
 
 layout:
-  - __class__: HorizontalBox
+  - __class__: VerticalBox
     items:
       - __class__: OpenDeck
         deck: level_3

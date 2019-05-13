@@ -81,6 +81,19 @@ class TabletopTurns(_TabletopBase):
 
 
 @dataclass
+class AttachedSnapPoint(_TabletopBase):
+    Position: PosType = PosType()
+
+
+@dataclass
+class AttachedVectorLine(_TabletopBase):
+    points3: List[PosType] = field(default_factory=PosType)
+    color: RgbType = RgbType()
+    thickness: float = 0.1
+    loop: bool = True
+
+
+@dataclass
 class TabletopObjectState(_TabletopBase):
     Name: str = 0
     Transform: TabletopTransform = TabletopTransform()
@@ -100,6 +113,8 @@ class TabletopObjectState(_TabletopBase):
     LuaScript: str = ""
     LuaScriptState: str = ""
     GUID: str = ""
+    AttachedSnapPoints: List[AttachedSnapPoint] = field(default_factory=list)
+    AttachedVectorLines: List[AttachedVectorLine] = field(default_factory=list)
 
 
 @dataclass
@@ -330,7 +345,3 @@ class TabletopSimulator(_TabletopBase):
         pprint(contents, width=120, indent=2)
         contents = json.dumps(contents, indent=2)
         filename.write_text(contents)
-
-    def generate_components(self, components, source_dir):
-        for i_component in components.values():
-            self.ObjectStates += i_component.generate(dest_directory=source_dir)

@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from typing import List
 
+from ttgen.dataclass_ import RgbType
 from ttgen.tabletop_generator.components import _Base
 
 
@@ -32,24 +33,41 @@ class Layout(_Base):
 @dataclass
 class OpenDeck(Layout):
     count: int = 1
-    deck: str = ""
     margin: float = 0.4
 
+    # References
+    table: str = ""
+    deck: str = ""
+
     # TODO: This is a deck-component property.
-    deck_width = 1.8
+    deck_width = 2.2
 
     def set_position(self, x, y):
         from ttgen.dataclass_ import PosType
+
         cur_x = x - (self.width / 2.0) + (self.deck_width / 2.0)
         self.deck.position = PosType(cur_x, y)
 
+        for _ in range(self.count + 1):
+            self.table.add_snap_point(cur_x, y)
+            cur_x += (self.deck_width + self.margin)
+
+        self.table.add_box(
+            x=x - (self.width / 2.0),
+            y=y - (self.height / 2.0),
+            w=self.width,
+            h=self.height,
+            color=RgbType(1.0, 0.85, 0.95),
+        )
+
     def initialize(self, components):
         self.deck = components[f'deck:{self.deck}']
+        self.table = components['table']
 
     @property
     def width(self):
         result = self.deck_width * (self.count + 1)
-        result += self.margin * (self.count - 1)
+        result += self.margin * self.count
         return result
 
     @property

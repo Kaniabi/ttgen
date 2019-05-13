@@ -5,3 +5,5 @@ zerotk.zops
 schematics
 pytest
 dataclasses-json
+
+pygame # for graphics classes such as Color, Rect, Line, Point.
