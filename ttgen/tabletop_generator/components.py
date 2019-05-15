@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from typing import List, Dict
 
-from pygame.rect import Rect
-
-from ttgen.dataclass_ import PosType, RgbType
+from ttgen.dataclass_ import Point3D, RgbType, Point2D
 from dataclasses_json import DataClassJsonMixin
+
+from ttgen.tabletop_generator.annotations import Annotations
 
 
 class Globals:
@@ -37,7 +37,9 @@ class Globals:
 @dataclass
 class _Base(DataClassJsonMixin):
     name: str = ""
-    position: PosType = PosType()
+    position: Point3D = Point3D()
+    rotation: Point3D = Point3D()
+    scale: Point3D = Point3D()
 
     def get_key(self):
         prefix = self.__class__.__name__.lower()
@@ -57,7 +59,7 @@ class _Base(DataClassJsonMixin):
 @dataclass
 class Board(_Base):
     image_url: str = ""
-    snap_points: List[int] = field(default_factory=list)
+    # snap_points: List[int] = field(default_factory=list)
 
     def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomBoard
@@ -67,9 +69,15 @@ class Board(_Base):
 
         return [
             TabletopCustomBoard.from_dict(
-                TabletopTransform=dict(
+                Transform=dict(
                     posX=self.position.x,
-                    posZ=self.position.z,
+                    posZ=self.position.y,
+                    rotX=self.rotation.x,
+                    rotY=self.rotation.y,
+                    rotZ=self.rotation.z,
+                    scaleX=self.scale.x,
+                    scaleY=self.scale.y,
+                    scaleZ=self.scale.z,
                 ),
                 CustomImage=dict(
                     ImageURL=self.image_url,
@@ -78,12 +86,20 @@ class Board(_Base):
             )
         ]
 
+    @property
+    def width(self):
+        return 10.0
+
+    @property
+    def height(self):
+        return 3.0
+
 
 @dataclass
 class Deck(_Base):
     face_url: str = ""
     back_url: str = ""
-    num_dim: float = 10.7
+    num_dim: str = "10x7"
     metadata: Dict[str, str] = field(default_factory=dict)
     count: int = 52
 
@@ -106,6 +122,8 @@ class Deck(_Base):
             )
             cards.append(c)
 
+        num_dim = [int(i) for i in self.num_dim.split('x')]
+
         return [
             TabletopDeckCustom.from_dict(
                 Nickname=self.name,
@@ -123,6 +141,8 @@ class Deck(_Base):
                     str(deck_id): dict(
                         FaceURL=self.face_url,
                         BackURL=self.back_url,
+                        NumWidth=num_dim[0],
+                        NumHeight=num_dim[1],
                     )
                 },
                 ContainedObjects=cards
@@ -182,32 +202,10 @@ class TokenStack(_Base):
 
 class _BaseTable(_Base):
 
+    annotations: Annotations = Annotations()
+
     def get_key(self):
         return 'table'
-
-
-class _BaseAnnotation:
-
-    def generate(self, components):
-        return []
-
-
-@dataclass
-class BoxAnnotation(_BaseAnnotation):
-    left: float = 0.0
-    top: float = 0.0
-    width: float = 0.0
-    height: float = 0.0
-    color: RgbType = RgbType()
-    thickness: float = 0.02
-
-    @property
-    def right(self):
-        return self.left + self.width
-
-    @property
-    def bottom(self):
-        return self.top + self.height
 
 
 @dataclass
@@ -219,17 +217,6 @@ class FlexTable(_BaseTable):
     table_height: float = 18.0
 
     surface_y: float = 10.4915
-
-    snap_points: List[PosType] = field(default_factory=list)
-    annotations: List[_BaseAnnotation] = field(default_factory=list)
-
-    def add_snap_point(self, x, y):
-        a = PosType(x, y)
-        self.snap_points.append(a)
-
-    def add_box(self, x, y, w, h, color):
-        a = BoxAnnotation(x, y, w, h, color)
-        self.annotations.append(a)
 
     def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomAssetBundle, TabletopCustomModel, AttachedVectorLine, AttachedSnapPoint
@@ -293,25 +280,8 @@ class FlexTable(_BaseTable):
                 DiffuseURL="https://i.imgur.com/N0O6aqj.jpg",
             ),
         )
-        for i_pos in self.snap_points:
-            p = AttachedSnapPoint.from_dict(
-                Position=dict(x=i_pos.x, y=self.surface_y, z=i_pos.y)
-            )
-            obj.AttachedSnapPoints.append(p)
-
         for i_annotation in self.annotations:
-            a = AttachedVectorLine.from_dict(
-                points3=[
-                    dict(x=i_annotation.left, y=self.surface_y, z=i_annotation.top),
-                    dict(x=i_annotation.left, y=self.surface_y, z=i_annotation.bottom),
-                    dict(x=i_annotation.right, y=self.surface_y, z=i_annotation.bottom),
-                    dict(x=i_annotation.right, y=self.surface_y, z=i_annotation.top),
-                ],
-                color=i_annotation.color,
-                thickness=i_annotation.thickness,
-            )
-            obj.AttachedVectorLines.append(a)
-
+            i_annotation.configure_surface(self, obj)
         result.append(obj)
 
         return result

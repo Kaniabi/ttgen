@@ -110,7 +110,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "e36bf2",
+      "GUID": "46b829",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -153,7 +153,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "8e0868",
+      "GUID": "e8298a",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -196,7 +196,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "856033",
+      "GUID": "7eac63",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -239,7 +239,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "dd4d60",
+      "GUID": "f04752",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -282,7 +282,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "7ae28d",
+      "GUID": "d696e8",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -325,7 +325,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "874889",
+      "GUID": "bd4206",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -368,7 +368,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "db8e6b",
+      "GUID": "5d329f",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -411,7 +411,7 @@
       "XmlUI": "",
       "LuaScript": "",
       "LuaScriptState": "",
-      "GUID": "838ff9",
+      "GUID": "67260e",
       "AttachedSnapPoints": [],
       "AttachedVectorLines": [],
       "CustomAssetbundle": {
@@ -458,107 +458,170 @@
       "AttachedSnapPoints": [
         {
           "Position": {
-            "x": -5.199999999999999,
+            "x": -9.1,
             "y": 10.4915,
             "z": -4.0
           }
         },
         {
           "Position": {
-            "x": -2.599999999999999,
+            "x": -6.5,
             "y": 10.4915,
             "z": -4.0
           }
         },
         {
           "Position": {
-            "x": 8.881784197001252e-16,
+            "x": -3.9,
             "y": 10.4915,
             "z": -4.0
           }
         },
         {
           "Position": {
-            "x": 2.600000000000001,
+            "x": -1.3,
             "y": 10.4915,
             "z": -4.0
           }
         },
         {
           "Position": {
-            "x": 5.200000000000001,
+            "x": 1.3,
             "y": 10.4915,
             "z": -4.0
           }
         },
         {
           "Position": {
-            "x": -5.199999999999999,
+            "x": 3.9,
             "y": 10.4915,
-            "z": -4.440892098500626e-16
+            "z": -4.0
           }
         },
         {
           "Position": {
-            "x": -2.599999999999999,
+            "x": 6.5,
             "y": 10.4915,
-            "z": -4.440892098500626e-16
+            "z": -4.0
           }
         },
         {
           "Position": {
-            "x": 8.881784197001252e-16,
+            "x": 9.1,
             "y": 10.4915,
-            "z": -4.440892098500626e-16
+            "z": -4.0
           }
         },
         {
           "Position": {
-            "x": 2.600000000000001,
+            "x": -9.1,
             "y": 10.4915,
-            "z": -4.440892098500626e-16
+            "z": -4.44089209850063e-16
           }
         },
         {
           "Position": {
-            "x": 5.200000000000001,
+            "x": -6.5,
             "y": 10.4915,
-            "z": -4.440892098500626e-16
+            "z": -4.44089209850063e-16
           }
         },
         {
           "Position": {
-            "x": -5.199999999999999,
+            "x": -3.9,
             "y": 10.4915,
-            "z": 3.9999999999999996
+            "z": -4.44089209850063e-16
           }
         },
         {
           "Position": {
-            "x": -2.599999999999999,
+            "x": -1.3,
             "y": 10.4915,
-            "z": 3.9999999999999996
+            "z": -4.44089209850063e-16
           }
         },
         {
           "Position": {
-            "x": 8.881784197001252e-16,
+            "x": 1.3,
             "y": 10.4915,
-            "z": 3.9999999999999996
+            "z": -4.44089209850063e-16
           }
         },
         {
           "Position": {
-            "x": 2.600000000000001,
+            "x": 3.9,
             "y": 10.4915,
-            "z": 3.9999999999999996
+            "z": -4.44089209850063e-16
           }
         },
         {
           "Position": {
-            "x": 5.200000000000001,
+            "x": 6.5,
             "y": 10.4915,
-            "z": 3.9999999999999996
+            "z": -4.44089209850063e-16
+          }
+        },
+        {
+          "Position": {
+            "x": 9.1,
+            "y": 10.4915,
+            "z": -4.44089209850063e-16
+          }
+        },
+        {
+          "Position": {
+            "x": -9.1,
+            "y": 10.4915,
+            "z": 4.0
+          }
+        },
+        {
+          "Position": {
+            "x": -6.5,
+            "y": 10.4915,
+            "z": 4.0
+          }
+        },
+        {
+          "Position": {
+            "x": -3.9,
+            "y": 10.4915,
+            "z": 4.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.3,
+            "y": 10.4915,
+            "z": 4.0
+          }
+        },
+        {
+          "Position": {
+            "x": 1.3,
+            "y": 10.4915,
+            "z": 4.0
+          }
+        },
+        {
+          "Position": {
+            "x": 3.9,
+            "y": 10.4915,
+            "z": 4.0
+          }
+        },
+        {
+          "Position": {
+            "x": 6.5,
+            "y": 10.4915,
+            "z": 4.0
+          }
+        },
+        {
+          "Position": {
+            "x": 9.1,
+            "y": 10.4915,
+            "z": 4.0
           }
         }
       ],
@@ -566,24 +629,24 @@
         {
           "points3": [
             {
-              "x": -6.3,
+              "x": -10.2,
               "y": 10.4915,
               "z": -5.6
             },
             {
-              "x": -6.3,
-              "y": 10.4915,
-              "z": -2.3999999999999995
-            },
-            {
-              "x": 6.3,
-              "y": 10.4915,
-              "z": -2.3999999999999995
-            },
-            {
-              "x": 6.3,
+              "x": 2.4,
               "y": 10.4915,
               "z": -5.6
+            },
+            {
+              "x": 2.4,
+              "y": 10.4915,
+              "z": -2.4
+            },
+            {
+              "x": -10.2,
+              "y": 10.4915,
+              "z": -2.4
             }
           ],
           "color": {
@@ -597,24 +660,24 @@
         {
           "points3": [
             {
-              "x": -6.3,
+              "x": 2.8,
               "y": 10.4915,
-              "z": -1.6000000000000005
+              "z": -5.6
             },
             {
-              "x": -6.3,
+              "x": 10.2,
               "y": 10.4915,
-              "z": 1.5999999999999996
+              "z": -5.6
             },
             {
-              "x": 6.3,
+              "x": 10.2,
               "y": 10.4915,
-              "z": 1.5999999999999996
+              "z": -2.4
             },
             {
-              "x": 6.3,
+              "x": 2.8,
               "y": 10.4915,
-              "z": -1.6000000000000005
+              "z": -2.4
             }
           ],
           "color": {
@@ -628,24 +691,117 @@
         {
           "points3": [
             {
-              "x": -6.3,
+              "x": -10.2,
               "y": 10.4915,
-              "z": 2.3999999999999995
+              "z": -1.6
             },
             {
-              "x": -6.3,
+              "x": 2.4,
+              "y": 10.4915,
+              "z": -1.6
+            },
+            {
+              "x": 2.4,
+              "y": 10.4915,
+              "z": 1.6
+            },
+            {
+              "x": -10.2,
+              "y": 10.4915,
+              "z": 1.6
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 0.85,
+            "b": 0.95
+          },
+          "thickness": 0.02,
+          "loop": true
+        },
+        {
+          "points3": [
+            {
+              "x": 2.8,
+              "y": 10.4915,
+              "z": -1.6
+            },
+            {
+              "x": 10.2,
+              "y": 10.4915,
+              "z": -1.6
+            },
+            {
+              "x": 10.2,
+              "y": 10.4915,
+              "z": 1.6
+            },
+            {
+              "x": 2.8,
+              "y": 10.4915,
+              "z": 1.6
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 0.85,
+            "b": 0.95
+          },
+          "thickness": 0.02,
+          "loop": true
+        },
+        {
+          "points3": [
+            {
+              "x": -10.2,
+              "y": 10.4915,
+              "z": 2.4
+            },
+            {
+              "x": 2.4,
+              "y": 10.4915,
+              "z": 2.4
+            },
+            {
+              "x": 2.4,
               "y": 10.4915,
               "z": 5.6
             },
             {
-              "x": 6.3,
+              "x": -10.2,
+              "y": 10.4915,
+              "z": 5.6
+            }
+          ],
+          "color": {
+            "r": 1.0,
+            "g": 0.85,
+            "b": 0.95
+          },
+          "thickness": 0.02,
+          "loop": true
+        },
+        {
+          "points3": [
+            {
+              "x": 2.8,
+              "y": 10.4915,
+              "z": 2.4
+            },
+            {
+              "x": 10.2,
+              "y": 10.4915,
+              "z": 2.4
+            },
+            {
+              "x": 10.2,
               "y": 10.4915,
               "z": 5.6
             },
             {
-              "x": 6.3,
+              "x": 2.8,
               "y": 10.4915,
-              "z": 2.3999999999999995
+              "z": 5.6
             }
           ],
           "color": {
@@ -679,9 +835,51 @@
       }
     },
     {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 12.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "scaleZ": 0.3
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "63631b",
+      "AttachedSnapPoints": [],
+      "AttachedVectorLines": [],
+      "HideWhenFaceDown": false,
+      "CustomImage": {
+        "ImageURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\boards\\route_to_the_orient.jpg",
+        "ImageSecondaryURL": "",
+        "WidthScale": 1.58566439
+      }
+    },
+    {
       "Name": "DeckCustom",
       "Transform": {
-        "posX": -5.199999999999999,
+        "posX": -9.1,
         "posY": 2.0,
         "posZ": 3.9999999999999996,
         "rotX": 0.0,
@@ -746,7 +944,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "a77b32",
+          "GUID": "eb9d98",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 100,
@@ -784,7 +982,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "3eb682",
+          "GUID": "679dc5",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 101,
@@ -822,7 +1020,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "ab0fc6",
+          "GUID": "7c11fd",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 102,
@@ -860,7 +1058,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "db240c",
+          "GUID": "d75f4d",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 103,
@@ -898,7 +1096,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "031c67",
+          "GUID": "8dbf24",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 104,
@@ -936,7 +1134,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "891a80",
+          "GUID": "4851c7",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 105,
@@ -974,7 +1172,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "2c4936",
+          "GUID": "073470",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 106,
@@ -1012,7 +1210,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "d091e1",
+          "GUID": "6a215e",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 107,
@@ -1050,7 +1248,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "fe4e1c",
+          "GUID": "ea778f",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 108,
@@ -1088,7 +1286,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "b15649",
+          "GUID": "f0585c",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 109,
@@ -1126,7 +1324,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "e65b58",
+          "GUID": "f66938",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 110,
@@ -1164,7 +1362,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "b38ffe",
+          "GUID": "b2e57d",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 111,
@@ -1202,7 +1400,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "4672fc",
+          "GUID": "0a9a1c",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 112,
@@ -1240,7 +1438,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "0d6baf",
+          "GUID": "fa4124",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 113,
@@ -1278,7 +1476,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "ed04e6",
+          "GUID": "876d70",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 114,
@@ -1316,7 +1514,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "555e2b",
+          "GUID": "24d3bf",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 115,
@@ -1354,7 +1552,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "8bdd6c",
+          "GUID": "3c2549",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 116,
@@ -1392,7 +1590,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "7bd9e4",
+          "GUID": "67d5ea",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 117,
@@ -1430,7 +1628,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "83aa0a",
+          "GUID": "a9c776",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 118,
@@ -1468,7 +1666,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "de0e87",
+          "GUID": "14bd35",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 119,
@@ -1506,7 +1704,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "4051fa",
+          "GUID": "6b2403",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 120,
@@ -1544,7 +1742,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "64f1cc",
+          "GUID": "521455",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 121,
@@ -1582,7 +1780,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "7ca9e6",
+          "GUID": "e9576b",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 122,
@@ -1620,7 +1818,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "2e19a8",
+          "GUID": "a78d29",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 123,
@@ -1658,7 +1856,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "917d08",
+          "GUID": "40cf72",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 124,
@@ -1696,7 +1894,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "af2497",
+          "GUID": "cb6067",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 125,
@@ -1734,7 +1932,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "53afc2",
+          "GUID": "5b7af0",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 126,
@@ -1772,7 +1970,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "859f0b",
+          "GUID": "46b9c4",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 127,
@@ -1810,7 +2008,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "cca842",
+          "GUID": "f71ec0",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 128,
@@ -1848,7 +2046,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "c0a736",
+          "GUID": "7788f7",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 129,
@@ -1886,7 +2084,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "250728",
+          "GUID": "3ef9fb",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 130,
@@ -1924,7 +2122,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "cb3853",
+          "GUID": "acacd0",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 131,
@@ -1962,7 +2160,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "ffb162",
+          "GUID": "9f4083",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 132,
@@ -2000,7 +2198,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "975f09",
+          "GUID": "736a99",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 133,
@@ -2038,7 +2236,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "0e0b52",
+          "GUID": "9f393e",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 134,
@@ -2076,7 +2274,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "83ef27",
+          "GUID": "f73048",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 135,
@@ -2114,7 +2312,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "220756",
+          "GUID": "bf63bb",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 136,
@@ -2152,7 +2350,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "f7fcea",
+          "GUID": "dbf647",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 137,
@@ -2190,7 +2388,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "cd72e5",
+          "GUID": "075b39",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 138,
@@ -2228,7 +2426,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "0c6288",
+          "GUID": "c94f2d",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 139,
@@ -2280,8 +2478,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_1.png",
-          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_1_back.png",
+          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_1.jpg",
+          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_1_back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -2292,7 +2490,7 @@
     {
       "Name": "DeckCustom",
       "Transform": {
-        "posX": -5.199999999999999,
+        "posX": -9.1,
         "posY": 2.0,
         "posZ": -4.440892098500626e-16,
         "rotX": 0.0,
@@ -2357,7 +2555,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "d836a9",
+          "GUID": "a9c197",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 200,
@@ -2395,7 +2593,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "1078ea",
+          "GUID": "5472c9",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 201,
@@ -2433,7 +2631,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "f4517f",
+          "GUID": "45936b",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 202,
@@ -2471,7 +2669,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "b22a57",
+          "GUID": "4d8f20",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 203,
@@ -2509,7 +2707,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "85d100",
+          "GUID": "720483",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 204,
@@ -2547,7 +2745,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "279977",
+          "GUID": "f20e3a",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 205,
@@ -2585,7 +2783,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "6d7850",
+          "GUID": "3a5ae5",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 206,
@@ -2623,7 +2821,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "98de96",
+          "GUID": "a9ae7a",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 207,
@@ -2661,7 +2859,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "fcfcc5",
+          "GUID": "f5848f",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 208,
@@ -2699,7 +2897,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "a51ab8",
+          "GUID": "264dde",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 209,
@@ -2737,7 +2935,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "4fca25",
+          "GUID": "7508ed",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 210,
@@ -2775,7 +2973,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "212a7a",
+          "GUID": "5aa386",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 211,
@@ -2813,7 +3011,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "3cf11d",
+          "GUID": "2d5d56",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 212,
@@ -2851,7 +3049,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "b74155",
+          "GUID": "4f19e3",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 213,
@@ -2889,7 +3087,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "b2f1f8",
+          "GUID": "8c35ae",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 214,
@@ -2927,7 +3125,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "45c811",
+          "GUID": "144044",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 215,
@@ -2965,7 +3163,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "c92ee8",
+          "GUID": "b88f6d",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 216,
@@ -3003,7 +3201,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "e3c4dd",
+          "GUID": "70fa2e",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 217,
@@ -3041,7 +3239,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "b70b60",
+          "GUID": "3e656a",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 218,
@@ -3079,7 +3277,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "85cf9a",
+          "GUID": "e47386",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 219,
@@ -3117,7 +3315,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "a1d486",
+          "GUID": "dbd37d",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 220,
@@ -3155,7 +3353,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "249f0f",
+          "GUID": "91e921",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 221,
@@ -3193,7 +3391,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "e98b0a",
+          "GUID": "9d72a2",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 222,
@@ -3231,7 +3429,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "99df75",
+          "GUID": "e04c2b",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 223,
@@ -3269,7 +3467,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "a0fd68",
+          "GUID": "da6560",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 224,
@@ -3307,7 +3505,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "dd13e1",
+          "GUID": "1ede0f",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 225,
@@ -3345,7 +3543,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "6598f8",
+          "GUID": "865575",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 226,
@@ -3383,7 +3581,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "169726",
+          "GUID": "1e5640",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 227,
@@ -3421,7 +3619,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "a9e6c6",
+          "GUID": "f10f4e",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 228,
@@ -3459,7 +3657,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "4e7832",
+          "GUID": "26ab2b",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 229,
@@ -3501,8 +3699,8 @@
       ],
       "CustomDeck": {
         "2": {
-          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_2.png",
-          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_2_back.png",
+          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_2.jpg",
+          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_2_back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -3513,7 +3711,7 @@
     {
       "Name": "DeckCustom",
       "Transform": {
-        "posX": -5.199999999999999,
+        "posX": -9.1,
         "posY": 2.0,
         "posZ": -4.0,
         "rotX": 0.0,
@@ -3578,7 +3776,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "ad18a5",
+          "GUID": "b58c2e",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 300,
@@ -3616,7 +3814,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "1e86f8",
+          "GUID": "5eaac4",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 301,
@@ -3654,7 +3852,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "f2e7e1",
+          "GUID": "d62af8",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 302,
@@ -3692,7 +3890,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "e7f08c",
+          "GUID": "55c8e4",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 303,
@@ -3730,7 +3928,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "8529bd",
+          "GUID": "bc9500",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 304,
@@ -3768,7 +3966,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "6240bb",
+          "GUID": "129fb5",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 305,
@@ -3806,7 +4004,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "38bdb6",
+          "GUID": "852905",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 306,
@@ -3844,7 +4042,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "d489b8",
+          "GUID": "0e4b1e",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 307,
@@ -3882,7 +4080,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "f1e5a6",
+          "GUID": "676a89",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 308,
@@ -3920,7 +4118,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "85eb8b",
+          "GUID": "bf6124",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 309,
@@ -3958,7 +4156,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "cbab37",
+          "GUID": "d82573",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 310,
@@ -3996,7 +4194,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "ff02c3",
+          "GUID": "2b7316",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 311,
@@ -4034,7 +4232,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "db226e",
+          "GUID": "6f03ac",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 312,
@@ -4072,7 +4270,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "9179a2",
+          "GUID": "c7f528",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 313,
@@ -4110,7 +4308,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "431a59",
+          "GUID": "363303",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 314,
@@ -4148,7 +4346,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "447f6d",
+          "GUID": "f70991",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 315,
@@ -4186,7 +4384,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "0dc299",
+          "GUID": "ef6ebd",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 316,
@@ -4224,7 +4422,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "7a6f67",
+          "GUID": "f2671b",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 317,
@@ -4262,7 +4460,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "384008",
+          "GUID": "caf398",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 318,
@@ -4300,7 +4498,7 @@
           "XmlUI": "",
           "LuaScript": "",
           "LuaScriptState": "",
-          "GUID": "4cc9f3",
+          "GUID": "92c0e7",
           "AttachedSnapPoints": [],
           "AttachedVectorLines": [],
           "CardID": 319,
@@ -4332,10 +4530,1333 @@
       ],
       "CustomDeck": {
         "3": {
-          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_3.png",
-          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_3_back.png",
+          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_3.jpg",
+          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\level_3_back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      }
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 3.900000000000001,
+        "posY": 2.0,
+        "posZ": 3.9999999999999996,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "oriental_1",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "",
+      "AttachedSnapPoints": [],
+      "AttachedVectorLines": [],
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2f2a39",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 400,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "92303f",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 401,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "ede796",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 402,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a7eca7",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 403,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "241e11",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 404,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "ab96c2",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 405,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0b91cd",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 406,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "190e79",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 407,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b18132",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 408,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "84ff10",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 409,
+          "SidewaysCard": false
+        }
+      ],
+      "HideWhenFaceDown": false,
+      "DeckIDs": [
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\oriental_1.jpg",
+          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\oriental_1_back.jpg",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      }
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 3.900000000000001,
+        "posY": 2.0,
+        "posZ": -4.440892098500626e-16,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "oriental_2",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "",
+      "AttachedSnapPoints": [],
+      "AttachedVectorLines": [],
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "3e050d",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 500,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a9ee40",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 501,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e94720",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 502,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "548fb0",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 503,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e1c4d0",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 504,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "217fef",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 505,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "61a69c",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 506,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "580d60",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 507,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "bc55b3",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 508,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d3f690",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 509,
+          "SidewaysCard": false
+        }
+      ],
+      "HideWhenFaceDown": false,
+      "DeckIDs": [
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\oriental_2.jpg",
+          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\oriental_2_back.jpg",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      }
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 3.900000000000001,
+        "posY": 2.0,
+        "posZ": -4.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "oriental_3",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "",
+      "AttachedSnapPoints": [],
+      "AttachedVectorLines": [],
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "731ce9",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 600,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "db0dc1",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 601,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fd96f1",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 602,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "c54c23",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 603,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "ad72b3",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 604,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fa01b9",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 605,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "693c7d",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 606,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2d2414",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 607,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "c67817",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 608,
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.0,
+            "posY": 0.0,
+            "posZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "XmlUI": "",
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d6bdd6",
+          "AttachedSnapPoints": [],
+          "AttachedVectorLines": [],
+          "CardID": 609,
+          "SidewaysCard": false
+        }
+      ],
+      "HideWhenFaceDown": false,
+      "DeckIDs": [
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609
+      ],
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\oriental_3.jpg",
+          "BackURL": "file:///C:\\Projects\\tabletop_generator\\games\\splendor\\decks\\oriental_3_back.jpg",
+          "NumWidth": 4,
+          "NumHeight": 3,
           "BackIsHidden": false,
           "UniqueBack": false
         }

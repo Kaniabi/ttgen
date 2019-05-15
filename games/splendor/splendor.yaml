@@ -6,29 +6,68 @@ components:
     table_width: 18
     table_height: 18
 
+  route_to_the_orient:
+    __class__: Board
+    position:
+      y: 12.0
+    rotation:
+      y: 180.0
+    scale:
+      x: 0.3
+      y: 0.3
+      z: 0.3
+
   level_1:
     __class__: Deck
     count: 40
 
   level_2:
     __class__: Deck
-    num_dim: 10.7
     count: 30
 
   level_3:
     __class__: Deck
-    num_dim: 10.7
     count: 20
+
+  oriental_1:
+    __class__: Deck
+    num_dim: 4x3
+    count: 10
+
+  oriental_2:
+    __class__: Deck
+    num_dim: 4x3
+    count: 10
+
+  oriental_3:
+    __class__: Deck
+    num_dim: 4x3
+    count: 10
 
 layout:
   - __class__: VerticalBox
     items:
-      - __class__: OpenDeck
-        deck: level_3
-        count: 4
-      - __class__: OpenDeck
-        deck: level_2
-        count: 4
-      - __class__: OpenDeck
-        deck: level_1
-        count: 4
+      - __class__: HorizontalBox
+        items:
+          - __class__: OpenDeck
+            deck: "level_3"
+            count: 4
+          - __class__: OpenDeck
+            deck: "oriental_3"
+            count: 2
+      - __class__: HorizontalBox
+        items:
+          - __class__: OpenDeck
+            deck: "level_2"
+            count: 4
+          - __class__: OpenDeck
+            deck: "oriental_2"
+            count: 2
+      - __class__: HorizontalBox
+        items:
+          - __class__: OpenDeck
+            deck: "level_1"
+            count: 4
+          - __class__: OpenDeck
+            deck: "oriental_1"
+            count: 2

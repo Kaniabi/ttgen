@@ -1,4 +1,5 @@
 from dataclasses import fields, is_dataclass, dataclass
+from dataclasses_json import DataClassJsonMixin
 
 
 def dataclass_from_dict(class_, **d):
@@ -38,14 +39,20 @@ def dataclass_from_dict(class_, **d):
 
 
 @dataclass
-class PosType:
+class Point3D(DataClassJsonMixin):
     x: float = 0.0
     y: float = 0.0
     z: float = 0.0
 
 
 @dataclass
-class RgbType:
+class Point2D(DataClassJsonMixin):
+    x: float = 0.0
+    y: float = 0.0
+
+
+@dataclass
+class RgbType(DataClassJsonMixin):
     r: float = 0.0
     g: float = 0.0
     b: float = 0.0
