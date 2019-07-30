@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  ttgen:
+    container_name: ttgen
+    environment: {}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ttgen:v1
+    volumes:
+      - venv:/application/venv
+      - /d/Projects/tabletop_generator:/application/ttgen
+    tty: true
+
+volumes:
+  venv:

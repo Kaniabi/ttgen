@@ -1,6 +1,7 @@
 /*.eggs/
 /*.venv/
 /*.idea/
+/*.egg-info/
 
 *.pyc
 

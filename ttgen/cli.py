@@ -71,7 +71,7 @@ class TabletopGenerator:
         ttsim.SaveName = self.name
         ttsim.GameMode = self.name
         for i_component in self.components.values():
-            ttsim.ObjectStates += i_component.generate(dest_directory=self._source_filename.parent)
+            ttsim.ObjectStates += i_component.generate(dest_directory=self._source_filename.parent.absolute())
 
         ttsim.save(self._source_filename.parent / f"{self.name}.json")
         ttsim.save(Path(dest_directory) / f"{self.name}.json")

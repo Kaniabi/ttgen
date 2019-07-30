@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
-from typing import List, Dict
+from typing import Dict
 
-from ttgen.dataclass_ import Point3D, RgbType, Point2D
 from dataclasses_json import DataClassJsonMixin
 
+from ttgen.dataclass_ import Point3D
 from ttgen.tabletop_generator.annotations import Annotations
 
 
@@ -22,11 +22,17 @@ class Globals:
 
     @classmethod
     def gen_image_url(cls, base_dir, path):
-        from pathlib import Path
+        from pathlib import Path, PureWindowsPath
 
         for i_extension in (".png", ".jpg"):
             filename = Path(f"{base_dir}/{path}{i_extension}")
             if filename.is_file():
+                filename = PureWindowsPath(
+                    '{}:/{}'.format(
+                        filename.parts[1],
+                        '/'.join(filename.parts[2:])
+                    )
+                )
                 break
         else:
             raise RuntimeError(f"Image file not found for {base_dir}/{path}")
@@ -219,7 +225,7 @@ class FlexTable(_BaseTable):
     surface_y: float = 10.4915
 
     def generate(self, dest_directory):
-        from ttgen.tabletop_simulator import TabletopCustomAssetBundle, TabletopCustomModel, AttachedVectorLine, AttachedSnapPoint
+        from ttgen.tabletop_simulator import TabletopCustomAssetBundle, TabletopCustomModel
 
         width_scale = self.table_width / self.DEFAULT_SIZE
         depth_scale = self.table_height / self.DEFAULT_SIZE
