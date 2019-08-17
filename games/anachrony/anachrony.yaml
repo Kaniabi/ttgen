@@ -8,6 +8,7 @@ components:
 
   main_board:
     __class__: Board
+    border: False
 #    image_url: 'main_board.jpg'
 #    snap_points:
 #      recruit_scientist: 1185, 1130
@@ -22,7 +23,7 @@ components:
   recruits:
     __class__: Deck
     back_url: "https://www.dropbox.com/s/8a2yb0ayjfbq2si/Cartas_0040_Capa-17.png?dl=1"
-    num_dim: 10.7
+    num_dim: 10x7
     count: 11
 #    metadata:
 #      - ["scientist", "engineer", "administrator", "genius"]
@@ -41,7 +42,7 @@ components:
   mines:
     __class__: Deck
     back_url: "https://www.dropbox.com/s/s9v2y9dec2r8ym5/Cartas_0028_Capa-18.png?dl=1"
-    num_dim: 10.7
+    num_dim: 10x7
     count: 11
 #    metadata: []
 #      - [1,2,3,4,5]
@@ -59,34 +60,28 @@ components:
 
   endgame_conditions:
     __class__: Deck
-    back_url: "https://www.dropbox.com/s/vh028cy0huwv12l/Cartas_0017_Capa-35.png?dl=1"
-    num_dim: 10.7
+    num_dim: 10x7
     count: 10
 
   starting_assets:
     __class__: Deck
-    back_url: "https://www.dropbox.com/s/l674ow30953kxkd/Cartas_0000_Capa-52.png?dl=1"
-    num_dim: 10.7
+    num_dim: 10x7
     count: 16
 
   power_plants:
     __class__: Deck
-    back_url: "https://www.dropbox.com/s/w4w7ne8fpedoxu6/Sin-t%C3%ADtulo-2_0001_Capa-3.png?dl=1"
     count: 15
 
   factories:
     __class__: Deck
-    back_url: "https://www.dropbox.com/s/ssl4xvx4iqljr5y/Sin-t%C3%ADtulo-2_0000_Capa-4.png?dl=1"
     count: 15
 
   life_supports:
     __class__: Deck
-    back_url: "https://www.dropbox.com/s/wpe5y6x8no9plgz/Tiles_0001_Capa-61.png?dl=1"
     count: 15
 
   labs:
     __class__: Deck
-    back_url: "https://www.dropbox.com/s/krgjbbhg2zpkd5t/Tiles_0000_Capa-62.png?dl=1"
     count: 15
 
   super_projects:

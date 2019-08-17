@@ -1,0 +1,15 @@
+name: Dune
+
+players:
+  __class__: TwoPlayers
+
+components:
+
+  table:
+    __class__: FlexTable
+    table_width: 18
+    table_height: 18
+
+  main_board:
+    __class__: Board
+    border: False

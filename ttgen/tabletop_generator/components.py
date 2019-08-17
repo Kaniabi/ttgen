@@ -5,6 +5,7 @@ from dataclasses_json import DataClassJsonMixin
 
 from ttgen.dataclass_ import Point3D
 from ttgen.tabletop_generator.annotations import Annotations
+from ttgen.tabletop_simulator import TabletopCustomBoard
 
 
 class Globals:
@@ -24,14 +25,14 @@ class Globals:
     def gen_image_url(cls, base_dir, path):
         from pathlib import Path, PureWindowsPath
 
-        for i_extension in (".png", ".jpg"):
+        # TODO: Not hard-code this.
+        target_dir = f'D:\\Projects\\tabletop_generator\\games\\{base_dir.parts[-1]}'
+
+        for i_extension in (".png", ".jpg", '.jpeg'):
             filename = Path(f"{base_dir}/{path}{i_extension}")
             if filename.is_file():
                 filename = PureWindowsPath(
-                    '{}:/{}'.format(
-                        filename.parts[1],
-                        '/'.join(filename.parts[2:])
-                    )
+                    f'{target_dir}/{path}{i_extension}'
                 )
                 break
         else:
@@ -43,17 +44,19 @@ class Globals:
 @dataclass
 class _Base(DataClassJsonMixin):
     name: str = ""
-    position: Point3D = Point3D()
-    rotation: Point3D = Point3D()
-    scale: Point3D = Point3D()
+    position: Point3D = Point3D(0.0, 0.0, 0.0)
+    rotation: Point3D = Point3D(0.0, 0.0, 0.0)
+    scale: Point3D = Point3D(1.0, 1.0, 1.0)
+
+    @property
+    def _prefix(self):
+        return self.__class__.__name__.lower()
 
     def get_key(self):
-        prefix = self.__class__.__name__.lower()
-        return f"{prefix}:{self.name}"
+        return f"{self._prefix}:{self.name}"
 
     def get_path(self):
-        prefix = self.__class__.__name__.lower()
-        return f"{prefix}s/{self.name}"
+        return f"{self._prefix}s/{self.name}"
 
     @classmethod
     def from_dict(cls, d, name):
@@ -61,25 +64,37 @@ class _Base(DataClassJsonMixin):
         result.name = name
         return result
 
+    def generate(self, dest_directory):
+        raise NotImplementedError
+
 
 @dataclass
 class Board(_Base):
     image_url: str = ""
+    border: bool = True
     # snap_points: List[int] = field(default_factory=list)
 
     def generate(self, dest_directory):
-        from ttgen.tabletop_simulator import TabletopCustomBoard
+        from ttgen.tabletop_simulator import TabletopCustomTile
 
         if not self.image_url:
             self.image_url = Globals.gen_image_url(dest_directory, self.get_path())
 
+        if self.border:
+            ttsim_class = TabletopCustomBoard
+        else:
+            ttsim_class = TabletopCustomTile
+            self.scale.x = 10.0
+            self.scale.z = 10.0
+
         return [
-            TabletopCustomBoard.from_dict(
+            ttsim_class.from_dict(
                 Transform=dict(
                     posX=self.position.x,
+                    posY=5.0,  # Let it fall into the table.
                     posZ=self.position.y,
                     rotX=self.rotation.x,
-                    rotY=self.rotation.y,
+                    rotY=180.0 + self.rotation.y,
                     rotZ=self.rotation.z,
                     scaleX=self.scale.x,
                     scaleY=self.scale.y,
@@ -98,7 +113,7 @@ class Board(_Base):
 
     @property
     def height(self):
-        return 3.0
+        return 10.0
 
 
 @dataclass
@@ -155,7 +170,6 @@ class Deck(_Base):
             )
         ]
 
-
 @dataclass
 class Model(_Base):
     mesh_url: str = ""
@@ -184,18 +198,22 @@ class Model(_Base):
 @dataclass
 class TokenStack(_Base):
     image_url: str = ""
+    count: int = 1
 
     def generate(self, dest_directory):
         from ttgen.tabletop_simulator import TabletopCustomTokenStack
 
         if not self.image_url:
-            self.image_url = f"{dest_directory}\\{self.get_path()}.png"
+            self.image_url = Globals.gen_image_url(dest_directory, self.get_path())
 
         return [
             TabletopCustomTokenStack.from_dict(
                 Transform=dict(
                     posX=self.position.x,
                     posZ=self.position.y,
+                    scaleX=0.5,
+                    scaleY=0.5,
+                    scaleZ=0.5,
                 ),
                 CustomImage=dict(
                     ImageURL=self.image_url,
@@ -204,6 +222,29 @@ class TokenStack(_Base):
                 GUID=Globals.gen_guid(),
             )
         ]
+
+
+# @dataclass
+# class Tile(_Base):
+#     count: int = 1
+#     image_url: str = ""
+#
+#     def generate(self, dest_directory):
+#         from ttgen.tabletop_simulator import TabletopCustomModel
+#
+#         return [
+#             TabletopCustomModel.from_dict(
+#                 Transform=dict(
+#                     posX=self.position.x,
+#                     posZ=self.position.y,
+#                 ),
+#                 CustomImage=dict(
+#                     ImageURL=self.image_url,
+#                     WidthScale=0.0,
+#                 ),
+#                 GUID=Globals.gen_guid(),
+#             )
+#         ]
 
 
 class _BaseTable(_Base):

@@ -1,6 +1,9 @@
 name: Splendor
-components:
 
+players:
+  __class__: TwoPlayers
+
+components:
   table:
     __class__: FlexTable
     table_width: 18
@@ -29,15 +32,43 @@ components:
     __class__: Deck
     count: 20
 
+  white:
+    __class__: TokenStack
+    count: 6
+
+  green:
+    __class__: TokenStack
+    count: 6
+
+  red:
+    __class__: TokenStack
+    count: 6
+
+  yellow:
+    __class__: TokenStack
+    count: 6
+
+  blue:
+    __class__: TokenStack
+    count: 6
+
 layout:
   - __class__: VerticalBox
     items:
       - __class__: OpenDeck
-        deck: "level_3"
+        deck: level_3
         count: 4
       - __class__: OpenDeck
-        deck: "level_2"
+        deck: level_2
         count: 4
       - __class__: OpenDeck
-        deck: "level_1"
+        deck: level_1
         count: 4
+#      - __class__: HorizontalBox
+#        items:
+#          - tile: "white"
+#          - tile: "blue"
+#          - tile: "green"
+#          - tile: "red"
+#          - tile: "black"
+#          - tile: "yellow"

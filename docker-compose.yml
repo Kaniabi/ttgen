@@ -9,7 +9,8 @@ services:
     image: ttgen:v1
     volumes:
       - venv:/application/venv
-      - /d/Projects/tabletop_generator:/application/ttgen
+      - D:/Projects/tabletop_generator:/application/ttgen
+      - C:/Users/kania/OneDrive/Documents/my games/Tabletop Simulator/Mods/Workshop/Testing:/application/output
     tty: true
 
 volumes:

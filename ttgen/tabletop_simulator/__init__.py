@@ -58,7 +58,7 @@ class TabletopTransform(_TabletopBase):
 @dataclass
 class TabletopHandTransform(_TabletopBase):
     Color: str = ""
-    Transform: List[TabletopTransform] = field(default_factory=list)
+    Transform: TabletopTransform = TabletopTransform()
 
 
 @dataclass
@@ -219,8 +219,12 @@ class TabletopDeckCustom(TabletopObjectStateContainer):
     CustomDeck: Dict[str, TabletopCustomDeck] = field(default_factory=dict)
 
 
-# Board
+@dataclass
+class TabletopCustomTile(TabletopObjectStateContainer):
+    Name: str = "Custom_Tile"
+    CustomImage: TabletopCustomImage = TabletopCustomImage()
 
+# Board
 
 @dataclass
 class TabletopCustomBoard(TabletopObjectState):

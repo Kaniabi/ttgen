@@ -1,0 +1,19 @@
+name: Claim
+
+components:
+  table:
+    __class__: FlexTable
+    table_width: 18
+    table_height: 18
+
+  cards:
+    __class__: Deck
+    num_dim: 8x6
+    count: 52
+
+layout:
+  - __class__: VerticalBox
+    items:
+      - __class__: OpenDeck
+        deck: cards
+        count: 4
